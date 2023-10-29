@@ -12,7 +12,7 @@ VERSION = 0.1BETA
 3. initialize the user
    ```user1 = USER_WALLET(address="YOUR TRC20 ADDRESS")```
 4. use the function. Example:
-   ```user1.last_transactions```
+   ```user1.last_transactions()```
 
 
 the module is under development, all new features will be described here.
