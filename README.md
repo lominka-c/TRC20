@@ -25,7 +25,7 @@ user1.last_transactions()
 + [deposit()](#deposit)
 + [get_address()](#gA)
 + [version()](#version)
-+ [errors()](#version)
++ [errors()](#errors)
 
 #### <a id="lT">last_transactions()</a>
 parameter | default | type | description |
@@ -48,3 +48,8 @@ parameter | default | type | description |
 #### <a id="version">version()</a>
 parameter | default | type | description |
 :-------------|:------------:|:-------:|:----------------------------
+
+#### <a id="errors">errors()</a>
+parameter | default | type | description |
+:-------------|:------------:|:-------:|:----------------------------
+code | 0 | int | gives information about exactly what the error is
