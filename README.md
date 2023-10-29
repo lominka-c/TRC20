@@ -25,4 +25,8 @@ VERSION = 0.1BETA
 + errors()
 
 #### last_transactions()
-parameter | default | type
+   parameter  |    default   |   type  |          description       |
+:-------------|:------------:|:-------:|----------------------------:
+limit | 1 | int | how many recent transactions will be shown
+only_from | False | bool | if it is True, only transactions that were sent from the address
+only_to | False | bool | if it is True, only transactions that were sent to the address
