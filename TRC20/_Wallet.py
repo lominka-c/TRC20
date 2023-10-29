@@ -91,7 +91,4 @@ class USER_WALLET():
 			else:
 				return {
 							"Status": "406"
-						}
-
-n = USER_WALLET("TBJpVuKDcxEJxCMFamSaoVSUxjSQP84Pim")
-print(n.deposit(n.last_transactions(limit=1)))
+				}
