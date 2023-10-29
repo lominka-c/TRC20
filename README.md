@@ -37,7 +37,7 @@ only_to | False | bool | if it is True, only transactions that were sent to the 
 #### <a id="deposit">deposit()</a>
 parameter | default | type | description |
 :-------------|:------------:|:-------:|:----------------------------
-lT | 0 | list | the last transaction
+lT |  | list | the last transaction
 time | 5 | int | how many minutes ago the transaction could have been made. If the transaction time is outside the limit, no action will be taken
 
 #### <a id="gA">get_address()</a>
