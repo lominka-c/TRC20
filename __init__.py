@@ -1,0 +1,1 @@
+from ._Wallet import USER_WALLET
