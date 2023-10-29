@@ -18,13 +18,13 @@ VERSION = 0.1BETA
    ```user1.last_transactions()```
 ***
 # <a id="Methods">Methods</a>
-+ last_transactions()
++ [last_transactions()](#lT)
 + deposit()
 + get_address()
 + version()
 + errors()
 
-#### last_transactions()
+#### <a id="lT">last_transactions()</a>
    parameter  |    default   |   type  |          description       |
 :-------------|:------------:|:-------:|----------------------------:
 limit | 1 | int | how many recent transactions will be shown
