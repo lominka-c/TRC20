@@ -52,4 +52,4 @@ parameter | default | type | description |
 #### <a id="errors">errors()</a>
 parameter | default | type | description |
 :-------------|:------------:|:-------:|:----------------------------
-code | 0 | int | gives information about exactly what the error is
+code |  | int | gives information about exactly what the error is
