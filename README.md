@@ -16,3 +16,5 @@ VERSION = 0.1BETA
 
 
 the module is under development, all new features will be described here.
+
+#Methods
