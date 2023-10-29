@@ -3,26 +3,29 @@ My first module. Use the TRC20 function(deposit, withdrawl, create wallet...)
 
 VERSION = 0.1BETA
 
-
-**[Methods](#Methods)**
+[How to use](#HowToUse)
+[Methods](#Methods)
 
 ***
-# How to use?
+# <a id="HowToUse">How to use?</a>
 
 1. save the folder "TRC20" to your project
 2. import module
-  ```import TRC20```
+ 
+import TRC20
 3. initialize the user
-   ```user1 = USER_WALLET(address="YOUR TRC20 ADDRESS")```
+  
+user1 = USER_WALLET(address="YOUR TRC20 ADDRESS")
 4. use the function. Example:
-   ```user1.last_transactions()```
+  
+user1.last_transactions()
 ***
 # <a id="Methods">Methods</a>
 + [last_transactions()](#lT)
 + [deposit()](#deposit)
-+ get_address()
-+ version()
-+ errors()
++ [get_address()](#gD)
++ [version()](#version)
++ [errors()](#version)
 
 #### <a id="lT">last_transactions()</a>
 parameter | default | type | description |
@@ -36,3 +39,12 @@ parameter | default | type | description |
 :-------------|:------------:|:-------:|----------------------------:
 lT | 0 | list | the last transaction
 time | 5 | int | how many minutes ago the transaction could have been made. If the transaction time is outside the limit, no action will be taken
+
+#### <a id="gD">get_address()</a>
+parameter | default | type | description |
+:-------------|:------------:|:-------:|----------------------------:
+
+
+#### <a id="version">version()</a>
+parameter | default | type | description |
+:-------------|:------------:|:-------:|----------------------------:
