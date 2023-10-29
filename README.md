@@ -25,14 +25,14 @@ VERSION = 0.1BETA
 + errors()
 
 #### <a id="lT">last_transactions()</a>
-   parameter  |    default   |   type  |          description       |
+parameter | default | type | description |
 :-------------|:------------:|:-------:|----------------------------:
 limit | 1 | int | how many recent transactions will be shown
 only_from | False | bool | if it is True, only transactions that were sent from the address
 only_to | False | bool | if it is True, only transactions that were sent to the address
 
 #### <a id="deposit">deposit()</a>
-   parameter  |    default   |   type  |          description       |
+parameter | default | type | description |
 :-------------|:------------:|:-------:|----------------------------:
 lT | 0 | list | the last transaction
 time | 5 | int | how many minutes ago the transaction could have been made. If the transaction time is outside the limit, no action will be taken
